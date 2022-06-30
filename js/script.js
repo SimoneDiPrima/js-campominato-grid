@@ -11,7 +11,7 @@ const cells = 10;
 
 buttonPlay.addEventListener(`click`, function(){
     for(let i=1;i <=rows ;i++){
-        for(j=1;j <=cells ; i++){
+        for(let j=1;j <=cells ; i++){
             // creo l elemento div
         const cell = document.createElement(`div`);
         cell.className = `cell`;
