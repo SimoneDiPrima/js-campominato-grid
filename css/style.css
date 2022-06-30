@@ -1,0 +1,13 @@
+
+#grid{
+    width:600px;
+    height:600px;
+    margin: 50px auto;
+}
+.cell{
+    cursor:pointer;
+    height:calc(100% / 10 );
+    width:calc(100% / 10 );
+    border: 1px solid white;
+    
+}
