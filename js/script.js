@@ -10,6 +10,7 @@ const cells = 10;
 const rowCells = rows * cells ;
 
     buttonPlay.addEventListener(`click`, function(){
+        grid.innerHTML =``;
         for(let i=1;i <= rowCells ;i++){ 
             // creo l elemento div
         const cell = document.createElement(`div`);
